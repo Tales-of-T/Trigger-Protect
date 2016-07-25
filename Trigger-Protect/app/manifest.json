@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trigger Protect",
+  "description": "This extension allows for users to choose what they want to see on the web, and when.",
+  "version": "1.0",
+
+  "permissions": [
+      "identity"
+  ],
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "popup.html"
+  }
+  "oauth2": {
+    "client_id": "665859454684.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/google+"
+    ]
+  }
+}
