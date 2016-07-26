@@ -1,6 +1,67 @@
 <!doctype html>
+
 <html lang="en-US">
   <head>
+  <style>
+html {
+    position: relative;
+    min-width: 250px;
+    min-height: 300px;
+    height: 100%;
+    background-color: #DAF4F0;
+}
+h1{
+  padding-top: 20px;
+}
+
+.category-grid {
+    background-color: #275C66
+    color: #DAF4F0;
+    padding: 16px;
+    font-size: 16px;
+    border-color: #DAF4F0;
+}
+
+.dropbtn {
+    background-color: #275C66;
+    color: #DAF4F0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: #32727E;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;f
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
     <title>Trigger Protect - An Add-On For Browser Safety</title>
 
     <script src="formatting.css" type="text/css"></script>
@@ -8,11 +69,47 @@
     <script src="popup.js"></script>
 
   </head>
-  <body>
+  <body >
 	<header>
-		<img src="img/logo.png">
-		<p font="Times"> Trigger Protect </p>
+		<img src="img/logo_triggerwarning_small.png" align=left>
+    <h1  align=middle> <font color="275C66" face="Lucida"> Trigger Protect </font></h1>
 	</header>
+  <br>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<br>
+<br>
+  <footer>
+    <button href="options.html" align=middle>See more...</button>
+  </footer>
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
   </body>
 </html>
 

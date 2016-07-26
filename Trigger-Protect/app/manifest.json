@@ -12,10 +12,4 @@
     "default_icon": "img/logo_triggerwarning_small.png",
     "default_popup": "popup.html"
   },
-  "oauth2": {
-    "client_id": "918695767242-e3lbmib6gq8btgpg8681lmgnvopqgs6q.apps.googleusercontent.com",
-    "scopes": [
-      "https://www.googleapis.com/auth/drive"
-    ]
-  }
 }
