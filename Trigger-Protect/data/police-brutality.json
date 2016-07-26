@@ -16,7 +16,7 @@ var text =
 		"stabbed",
 		"#blacklivesmatter",
 		"#sayhername"
-	}
+	},
 	"people":{
 		"Jordan Davis",
 		"Michael Gardner",
@@ -37,3 +37,4 @@ var text =
 	}
 }
 }
+print(text[0][1]);
