@@ -4,7 +4,16 @@
   "name": "Trigger Protect",
   "description": "This extension allows for users to choose what they want to see on the web, and when.",
   "version": "1.0",
-
+  
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "facebook_filter.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_start"
+   } ],
+   
   "permissions": [
     "identity",
     "tabs",

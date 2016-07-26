@@ -1,0 +1,18 @@
+var data = 
+{
+	"war":{
+		"general":{
+			"civilian",
+			"terrorist attack",
+			"weapons",
+			"bloodshed",
+			"veterans",
+			""
+		},
+		"incidents":{
+			"World Trade Centre",
+			"9/11",
+			"Sept 11,2001"
+		}
+	}
+}

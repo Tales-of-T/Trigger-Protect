@@ -1,0 +1,41 @@
+var data = 
+{"sexual assault":
+	{
+		"general":{
+			"without consent",
+			"unconscious",
+			"alcohol":
+			{
+				"intoxicated",
+				"drunk",
+				"high",
+				"under the influence of alcohol"
+			},
+			"high",
+			"rape",
+			"penetration",
+			"drugs",
+			"sexual coercion",
+			"voyeurism",
+			"exhibitionism",
+			"incest",
+			"threatened",
+			"violence",
+			"attack",
+			"date rape drugs",
+			"date rape",
+			"resist",
+			"depression",
+			"eating disorders",
+			"child abuse",
+			"pedophilia",
+			"trypophobia"
+		},
+		"people":{
+			"Brock Turner"
+		},
+		"incidents":{
+			"Stanford rape"
+		}
+	}
+}
