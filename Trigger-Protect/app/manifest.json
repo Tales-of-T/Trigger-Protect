@@ -6,10 +6,13 @@
   "version": "1.0",
 
   "permissions": [
-    "identity"
+    "identity",
+    "tabs",
+    "<all_urls>"
   ],
+
   "browser_action": {
-    "default_icon": "img/logo_triggerwarning_small.png",
+    "default_icon": "img/tw-logoincircle.png",
     "default_popup": "popup.html"
-  },
+  }
 }
