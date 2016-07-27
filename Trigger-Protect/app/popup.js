@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
 });
     
-/*
+
 // JQuery to Add Trigger List Options
 (function($){
 
@@ -125,6 +125,3 @@ $(document).ready(function () {
 })
 
 })(jQuery)
-
-
-*/
