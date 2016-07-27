@@ -40,6 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app\aboutus.html" />
+    <Content Include="app\aboutus.css" />
     <Content Include="app\background.js" />
     <Content Include="app\facebook_filter.js" />
     <Content Include="app\feedback.html" />
@@ -47,8 +48,10 @@
     <Content Include="app\img\icon.png" />
     <Content Include="app\options.html" />
     <Content Include="app\options.js" />
+    <Content Include="app\options.css" />
     <Content Include="app\popup.html" />
     <Content Include="app\popup.js" />
+    <Content Include="app\popup.css" />
     <Content Include="app\formatting.css" />
     <Content Include="Properties\build\lib\Ionic.Zip.DLL" />
     <Content Include="Properties\build\lib\MSBuild.ExtensionPack.dll" />
