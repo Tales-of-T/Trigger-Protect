@@ -64,7 +64,7 @@ header{
 
   <body >
 	<header align=middle>
-	<a href="popup.html">
+
 		<img class=logo src="img/tw-logoandwords.png" align=middle>
 	</header>
 
@@ -72,7 +72,7 @@ header{
 
   <div align=middle class="info-blocks">
   <h3 style="margin-left:5%"> We would love your feedback!</h3>
-  <form NAME="userform" method="GET" onsubmit="return writeFeedback()">
+  <form NAME="userform" method="GET">
   <p>
     <label for="Name">Name</label>
     <input type="text" name="name" size="30" />
@@ -81,14 +81,15 @@ header{
     <label for="Feedback">Feedback</label>
     <input type="text" name="feedback" size="30" />
   </p>
-  <button value="Submit" style="margin-bottom:5%" type=submit>Submit</button>
+  <button id="submit" value="Submit" style="margin-bottom:5%" type=submit>Submit</button>
   </form>
   </div>
 
 
   <footer align=middle>
     <a style="margin-right:20px" href="aboutus.html" align=middle>About us</a>
-    <a href="feedback.html" align=middle>Feedback</a>
+    <a href="feedback.html" style="margin-right:20px" align=middle>Feedback</a>
+    <a href="popup.html" align=middle>Back to Home</a>
   </footer>
 
   </body>

@@ -14,10 +14,12 @@
       "run_at": "document_start"
    } ],
    
+  "options_page": "options.html",
   "permissions": [
     "identity",
     "tabs",
-    "<all_urls>"
+    "<all_urls>",
+    {"fileSystem": ["write"]} 
   ],
 
   "browser_action": {
