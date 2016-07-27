@@ -86,14 +86,14 @@ document.addEventListener('DOMContentLoaded', function () {
     dispTriggers.addEventListener("click", function () { fillTriggerArea(text['police brutality']['general']) });
 });
     
-/*
+
 // JQuery to Add Trigger List Options
 (function($){
 
 $(document).ready(function () {
 
     $(function () {
-        $('#triggerList').multiselect({
+        $('#triggerList').multiSelect({
             includeSelectAllOption: true
         });
         $('#btnSelectTriggers').click(function () {
@@ -114,4 +114,3 @@ $(document).ready(function () {
 
 })(jQuery)
 
-*/
