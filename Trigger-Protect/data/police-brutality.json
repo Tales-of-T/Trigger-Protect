@@ -1,7 +1,7 @@
 var text = 
-{"police brutality":
 {
-	"general":{
+	"police brutality":
+	{
 		"gunshot",
 		"vehicle",
 		"taser",
@@ -15,9 +15,7 @@ var text =
 		"death in castody",
 		"stabbed",
 		"#blacklivesmatter",
-		"#sayhername"
-	},
-	"people":{
+		"#sayhername",
 		"Jordan Davis",
 		"Michael Gardner",
 		"Tamir Rice",
@@ -33,8 +31,6 @@ var text =
 		"Rekia Boyd",
 		"Shereese Francis",
 		"Tarika Wilson",
-		"Aiyana Stanley-Jones"
+		"Aiyana Stanley-Jones"	
 	}
 }
-}
-print(text[0][1]);
