@@ -34,4 +34,62 @@ window.onclick = function(event) {
   }
 }
 
+var text = 
+{"police brutality":
+    {
+        "general":[
+            "gunshot",
+            "vehicle",
+            "taser",
+            "physical restraint",
+            "pepper spray",
+            "struck by vehicle",
+            "asphyxiated",
+            "beaten",
+            "medical emergency",
+            "baton",
+            "death in castody",
+            "stabbed",
+            "#blacklivesmatter",
+            "#sayhername"
+        ],
+        "people":[
+            "Jordan Davis",
+            "Michael Gardner",
+            "Tamir Rice",
+            "Sandra Bland",
+            "Tanisha Anderson",
+            "Yvette Smith",
+            "Miriam Carey",
+            "Shelly Frey",
+            "Darnisha Harris",
+            "Malissa Williams",
+            "Alesia Thomas",
+            "Shantel Davis",
+            "Rekia Boyd",
+            "Shereese Francis",
+            "Tarika Wilson",
+            "Aiyana Stanley-Jones"
+        ]
+    }
+}
+
+var fillTriggerArea = function (triggers) {
+    document.getElementById("TriggerArea").innerHTML = "";
+    console.log(triggers);
+    //trigger in text['police brutality']['general']
+    //triggers = text['police brutality']['general'];
+    for (var i = 0; i < triggers.length; i++) {
+        document.getElementById("TriggerArea").innerHTML += "<h4>" + triggers[i] + "</h4><br />";
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function () {
+    var dispTriggers = document.getElementById("your");
+    console.log(dispTriggers);
+    dispTriggers.addEventListener("click", fillTriggerArea(text['police brutality']['general']));
+});
+    
+
+
 
