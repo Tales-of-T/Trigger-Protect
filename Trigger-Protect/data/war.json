@@ -1,14 +1,12 @@
-var data = 
 {
-	"war":
-	{
-			"civilian",
-			"terrorist attack",
-			"weapons",
-			"bloodshed",
-			"veterans",
-			"World Trade Centre",
-			"9/11",
-			"Sept 11,2001"
-	}
+  "war": [
+    "civilian",
+    "terrorist attack",
+    "weapons",
+    "bloodshed",
+    "veterans",
+    "World Trade Centre",
+    "9/11",
+    "Sept 11,2001"
+  ]
 }
