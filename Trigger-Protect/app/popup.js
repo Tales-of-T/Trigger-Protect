@@ -91,5 +91,21 @@ document.addEventListener('DOMContentLoaded', function () {
 });
     
 
-
-
+// JQuery to Add Trigger List Options
+$(function () {
+        $('#triggerList').multiselect({
+            includeSelectAllOption: true
+        });
+        $('#btnSelectTriggers').click(function () {
+            var selected = $("#triggerList option:selected");
+            var message = "";
+            selected.each(function () {
+                message += $(this).text() + " " + "\n";
+            });
+            document.getElementById("triggerResults").value = message;
+        });
+        $('#btnClearTriggers').click(function () {
+            var message = "";
+            document.getElementById("triggerResults").value = message;
+        });
+    });

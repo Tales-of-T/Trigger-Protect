@@ -1,0 +1,36 @@
+var text = 
+{
+	"police brutality":
+	{
+		"gunshot",
+		"vehicle",
+		"taser",
+		"physical restraint",
+		"pepper spray",
+		"struck by vehicle",
+		"asphyxiated",
+		"beaten",
+		"medical emergency",
+		"baton",
+		"death in castody",
+		"stabbed",
+		"#blacklivesmatter",
+		"#sayhername",
+		"Jordan Davis",
+		"Michael Gardner",
+		"Tamir Rice",
+		"Sandra Bland",
+		"Tanisha Anderson",
+		"Yvette Smith",
+		"Miriam Carey",
+		"Shelly Frey",
+		"Darnisha Harris",
+		"Malissa Williams",
+		"Alesia Thomas",
+		"Shantel Davis",
+		"Rekia Boyd",
+		"Shereese Francis",
+		"Tarika Wilson",
+		"Aiyana Stanley-Jones"	
+	}
+}
