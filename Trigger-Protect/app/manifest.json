@@ -9,7 +9,7 @@
       "scripts": [ "background.js" ]
    },
    "content_scripts": [ {
-      "js": [ "facebook_filter.js" ],
+      "js": [ "facebook_filter.js" , "jquery.js"],
       "matches": [ "*://*.facebook.com/*" ],
       "run_at": "document_start"
    } ],
@@ -25,4 +25,6 @@
     "default_icon": "img/tw-logoincircle.png",
     "default_popup": "popup.html"
   }
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

@@ -76,9 +76,6 @@ var text =
 
 var fillTriggerArea = function (triggers) {
     document.getElementById("TriggerArea").innerHTML = "";
-    console.log(triggers);
-    //trigger in text['police brutality']['general']
-    //triggers = text['police brutality']['general'];
     for (var i = 0; i < triggers.length; i++) {
         document.getElementById("TriggerArea").innerHTML += "<input type=checkbox checked>" + triggers[i] + "<br />";
     }
@@ -86,13 +83,16 @@ var fillTriggerArea = function (triggers) {
 
 document.addEventListener('DOMContentLoaded', function () {
     var dispTriggers = document.getElementById("your");
-    console.log(dispTriggers);
     dispTriggers.addEventListener("click", function () { fillTriggerArea(text['police brutality']['general']) });
 });
     
-
+/*
 // JQuery to Add Trigger List Options
-$(function () {
+(function($){
+
+$(document).ready(function () {
+
+    $(function () {
         $('#triggerList').multiselect({
             includeSelectAllOption: true
         });
@@ -109,3 +109,9 @@ $(function () {
             document.getElementById("triggerResults").value = message;
         });
     });
+
+})
+
+})(jQuery)
+
+*/
