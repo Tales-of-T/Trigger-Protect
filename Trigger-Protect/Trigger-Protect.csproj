@@ -39,7 +39,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\aboutus.html" />
+    <Content Include="app\background.js" />
+    <Content Include="app\facebook_filter.js" />
+    <Content Include="app\feedback.html" />
+    <Content Include="app\feedback.txt" />
     <Content Include="app\img\icon.png" />
+    <Content Include="app\options.html" />
+    <Content Include="app\options.js" />
     <Content Include="app\popup.html" />
     <Content Include="app\popup.js" />
     <Content Include="app\formatting.css" />
@@ -49,7 +56,6 @@
     <Content Include="index.htm" />
     <Content Include="Properties\build\ligershark.chrome.targets" />
     <Content Include="screenshots\readme.txt" />
-    <Content Include="app\initialize-firebase.js" />
     <None Include="scripts\_references.js" />
     <None Include="scripts\chrome-api-vsdoc.js" />
   </ItemGroup>
