@@ -87,7 +87,7 @@ var fillTriggerArea = function (triggers) {
 document.addEventListener('DOMContentLoaded', function () {
     var dispTriggers = document.getElementById("your");
     console.log(dispTriggers);
-    dispTriggers.addEventListener("click", fillTriggerArea(text['police brutality']['general']));
+    dispTriggers.addEventListener("click", function () { fillTriggerArea(text['police brutality']['general']) });
 });
     
 
