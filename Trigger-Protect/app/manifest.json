@@ -18,8 +18,7 @@
   "permissions": [
     "identity",
     "tabs",
-    "<all_urls>",
-    {"fileSystem": ["write"]} 
+    "<all_urls>"
   ],
 
   "browser_action": {
